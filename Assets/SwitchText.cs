@@ -12,7 +12,7 @@ public class SwitchText : MonoBehaviour
     {
         yield return new WaitForSeconds(5f);
 
-        text.text = $"Прошло времени { Time.realtimeSinceStartup }";
+        text.text = $"РїСЂРѕС€Р»Рѕ РІСЂРµРјРµРЅРё { Time.realtimeSinceStartup }";
     }
 
     // Update is called once per frame
